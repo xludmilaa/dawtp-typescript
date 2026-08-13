@@ -10,7 +10,7 @@ var Perro = /** @class */ (function () {
         return "¡Guau!";
     };
 
-    // Se agrega el metodo toString() para mostrar el nombre del animal en la consola al imprimir el objeto, de lo cpntrario muestra "[object Object]"
+    // Se agrega el metodo toString() para mostrar el nombre del animal en la consola al imprimir el objeto, de lo contrario muestra "[object Object]"
     Perro.prototype.toString = function () {
         return "Perro ".concat(this.nombre);
     };
